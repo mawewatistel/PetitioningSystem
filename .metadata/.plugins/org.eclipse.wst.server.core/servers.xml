@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="37">
+    <list key="modules" value0="SibuloTolentino::org.eclipse.jst.jee.server:SibuloTolentino::jst.web::3.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configMode="1" hostname="127.0.0.1" id="defaultServer0" id-set="true" name="Web Preview Server" runtime-id="Web Preview Server Runtime" server-type="com.ibm.etools.wdt.server.serverType" server-type-id="com.ibm.etools.wdt.server.serverType" serverName="defaultServer0" start-timeout="30" stop-timeout="15" timestamp="0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost (2)" name="Tomcat v8.0 Server at localhost (2)" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server Liberty at localhost" looseConfig="true" name="WebSphere Application Server Liberty at localhost" runtime-id="WebSphere Application Server Liberty Profile" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="defaultServer" start-timeout="60" stop-timeout="15" timestamp="6">
+    <list key="modules" value0="AngeloLugtu::org.eclipse.jst.jee.server:AngeloLugtu::jst.web::3.0"/>
+  </server>
+  <server auto-publish-setting="1" hostname="Cloud" id="IBM Bluemix" name="IBM Bluemix" org.eclipse.cft.org="2014069021@ust.edu.ph" org.eclipse.cft.serverId="2014069021@ust.edu.ph_2014069021@ust.edu.ph_eclipse lab@https://api.au-syd.bluemix.net" org.eclipse.cft.space="eclipse lab" org.eclipse.cft.url="https://api.au-syd.bluemix.net" org.eclipse.cft.username="2014069021@ust.edu.ph" runtime-id="IBM Bluemix Runtime" server-type="com.ibm.cftools.server" server-type-id="com.ibm.cftools.server" start-timeout="600" stop-timeout="60" timestamp="30">
+    <list key="modules" value0="LabExer5::org.eclipse.jst.jee.server:LabExer5::jst.web::3.1"/>
+  </server>
+</servers>

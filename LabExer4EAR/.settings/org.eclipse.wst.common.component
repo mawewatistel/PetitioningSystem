@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="LabExer4EAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="LabExer4.war" deploy-path="/" handle="module:/resource/LabExer4/LabExer4">
+            <dependent-object>Module_1457190247461</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LabExer5.war" deploy-path="/" handle="module:/resource/LabExer5/LabExer5">
+            <dependent-object>Module_1457456275894</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

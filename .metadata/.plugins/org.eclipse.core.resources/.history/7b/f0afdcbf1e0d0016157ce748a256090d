@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Petition Classes</title>
+</head>
+<body>
+<img src ="C:\Users\Acer\Desktop\ust.jpg" alt = "Missing Image!=" width = 950 height= >
+<form action="jsp1">
+<br><br><center>
+<p>Username:<br></p>
+<input type="text"type="text"></center> 
+<br><br> 
+<center>
+<p>Password:<br></p>
+<input type="text"type="text"></center>
+<br><br> 
+<center><input type = 'Submit' value = 'Login'></center>
+
+ <style> 
+  input[type="text"] { 
+    background: white; 
+    border: 1px double #DDD; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px #333; 
+    color: #666; 
+    outline: none; 
+    height:25px; 
+    width: 275px; 
+  } 
+
+.p{
+	font-family: "verdana";
+	}
+input[type="submit"]{
+    background: white; 
+    border: 1px double #DDD; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px #333; 
+    color: #666; 
+    outline: none; 
+    height:25px; 
+    width: 200px;
+    font-family: "verdana";
+}
+</style>
+</form>
+
+</body>
+</html>

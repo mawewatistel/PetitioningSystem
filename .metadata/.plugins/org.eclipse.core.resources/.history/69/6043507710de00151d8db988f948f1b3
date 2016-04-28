@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>PHONE NUMBER</title>
+</head>
+<body>
+<form action = "Enter" method = "post">
+Telephone Number : <input type = "text" name = "pnumber" placeholder = "In Letter">
+Telco Number : <input type = "text" name = "pnumber1" placeholder = "In Number">
+<p>ABC(2), DEF(3), GHI(4), JKL(5), MNO(6), PQRS(7), TUV(8), WXYZ(9)</p>
+<input type ='submit' value = 'ENTER'>
+</form>
+</body>
+</html>
