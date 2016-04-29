@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Petition Classes</title>
 </head>
 <body>
 <% session.removeAttribute("username"); session.removeAttribute("password"); 
-session.invalidate(); %> <h1>Logout was done successfully.</h1>
+session.invalidate(); %> 
 
 </body>
 </html>

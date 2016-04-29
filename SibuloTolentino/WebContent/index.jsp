@@ -11,7 +11,7 @@
 <form action="login.jsp" method="post"> <br/>
 <center><p>Username</p><input type="text" name="username"> <br/></center>
 <center><p>Password</p><input type="password" name="password"> <br/>
-<br><input type="submit" value="Submit"> </form> </center>
+<br><input type="submit" value="Log in"> </form> </center>
 <style> 
   input[type="text"] { 
     background: #A9A9A9; 

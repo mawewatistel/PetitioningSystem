@@ -43,7 +43,8 @@ input[type="text"] {
   } 
 </style>
 <body>
-<form action ="PetitionClassSubmit" method = "get">
+<form action ="petitionclasssubmit.jsp" method = "post">
+<form action ="logout.jsp" method = "post"></form>
 <img src ="C:\Users\Acer\Desktop\ust.jpg" alt = "No Image Found=" width = 950 height =>
 <input type="submit" value="Schedule"/><input type="submit" value="Create A Petition Class"/><input type="submit" value="Logout"/>
 <center><p>You are in the 'Create A Petition Class' menu.</p></center></br>
