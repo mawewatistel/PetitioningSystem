@@ -22,17 +22,31 @@ input[type="submit"]{
     color: ; 
     outline: none; 
     height:25px; 
-    width: 315px;
+    width: 447px;
     font-family: "verdana";
     font-color: black;
 }
 </style>
-<img src ="C:\Users\Acer\Desktop\ust.jpg" alt = "No Image Found=" width = 950 height =>
-<input type="submit" value="Schedule"/><input type="submit" value="Create A Petition Class"/><input type="submit" value="Logout"/>
+<form action ="home.jsp" method = "post">
+<img src ="Images/ust.JPG" alt = "Missing Image!=" width = 1350 height= ><br>
+<input type="submit" name="one" value="Schedule"/>
+	
+<input type="submit" name="two"
+			value="Create A Petition Class" >
+<input type="submit"  name="three"value="Log out"></form>
+<% if (request.getParameter("one") != null) {
+    response.sendRedirect("home.jsp");
+}
+else if (request.getParameter("two") != null) {
+    response.sendRedirect("create.jsp");
+}
+else if (request.getParameter("three") != null) {
+    response.sendRedirect("index.jsp");
+} %>
 <h1><center>Petition Submitted!</center></h1>
 <p><left>-Please check the available Petition Subjects regularly.</left></p>
 <p><left>-Slots are Limited</left></p>
-<p><left>-Visit your college office for your questions regarding schedules and peition classes</left></p>
+<p><left>-Visit your college office for your questions regarding schedules and petition classes</left></p>
 </style>
 </body>
 </html>
