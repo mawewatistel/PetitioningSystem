@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,13 +6,164 @@
 <title>Petition Class</title>
 </head>
 <body>
-<style>h1 {
-font-family:consolas;
-font-size:300%;
-color:blue;
+<form action ="home.jsp" method = "post">
+<img src ="Images/ust.JPG" alt = "Missing Image!=" width = 1350 height= ><br>
+<input type="submit" name="one" id="remove" value="Schedule" style="width:33%" style="height:15%"/>
+<input type="submit" name="two" id="remove" value="Create A Petition Class" style="width:33%" style="height:15%"/>
+<input type="submit" name="three" id="remove" value="Log out" style="width:33%" style="height:15%"/></form>
+<% if (request.getParameter("one") != null) {
+    response.sendRedirect("home.jsp");
 }
-h2{
-font-family:calibri;
+else if (request.getParameter("two") != null) {
+    response.sendRedirect("create.jsp");
+}
+else if (request.getParameter("three") != null) {
+    response.sendRedirect("index.jsp");
+}
+ %>
+<br>
+<table border="1" align="right" style ="width: 20%">
+<tr>
+<th> Available Schedule </th>
+</tr>
+<tr>
+<td>(2 Units)PHY M 7-8 W 8-9</td>
+</tr>
+<tr>
+<td><form><input type="submit" name="two" value="Add schedule to subjects"/></form></td>
+</tr>
+<tr>
+<td> (2 Units)APP M 7-8 W 8-9 </td>
+</tr>
+<tr>
+<td> <form><input type="submit" name="two" value="Add schedule to subjects"/></form></td>
+</tr>
+<tr>
+<td>(3 Units) IS 206 M 7-10</td>
+</tr>
+<tr>
+<td> <form><input type="submit" name="two" value="Add schedule to subjects"/></form></td>
+</tr>
+</table>
+<table border="1" style ="width: 75%">
+<tr>
+<th> Subject </th>
+<th> Subject Description</th>
+<th> Lec Units</th>
+<th> Lab Units</th>
+<th> Section</th>
+<th> Schedule </th>
+</tr>
+<tr>
+<td>ENG 1</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>Lab Units</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+</tr>
+<tr>
+<td>FIL 1</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>Lab Units</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three" value="Remove" style="width:100%"></form></td>
+</tr>
+<tr>
+<td>PHL 1</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>Lab Units</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+</tr>
+<tr>
+<td>ICS 111</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>1</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+</tr>
+<tr>
+<td>PE</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>Lab Units</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+</tr>
+<tr>
+<td>NSTP</td>
+<td> Subject Description </td>
+<td>3</td>
+<td>Lab Units</td>
+<td>Section</td>
+<td>Schedule</td>
+<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+</tr>
+</table>
+<br>
+<table border="1" align="right" style="width: 25%">
+<tr>
+<th> Available Petition Subject (Approved)</th>
+</tr>
+<tr>
+<td> (3 Units) MATH 101 F 7-10 </td>
+</tr>
+<tr>
+<td> <form><input type="submit" name="two"  value="Add schedule to subjects" align="center"/></form></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+	<th>TOTAL UNITS:</th>
+	<th>19 Units</th> 
+	<th><a href="submit.jsp"> SUBMIT</a>
+</table>
+<br><br>
+<p>*Schedule will not be submitted if above 24 unit</p>
+<p>*Subjects cannot be added if there are conflicts in the schedule</p>
+<style>
+h1 {
+	font-family: consolas;
+	font-size: 300%;
+	color: blue;
+}
+
+h2 {
+	font-family: calibri;
+}
+
+p {
+	font-family: "verdana";
+}
+
+input[type="text"] {
+	background: white;
+	border: 1px double black;
+	border-radius: 5px;
+	box-shadow: 0 0 5px yellow;
+	color: black;
+	outline: center;
+	height: 25px;
+	width: 275px;
+	font-family: "verdana";
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+th, td {
+padding: 4px;
+text-align: center;
+font-family: calibri;  
 }
 input[type="submit"]{
     background: #87CEFA; 
@@ -22,41 +172,12 @@ input[type="submit"]{
     box-shadow: 0 0 5px #333; 
     color: ; 
     outline: none; 
-    height:25px; 
-    width: 315px;
     font-family: "verdana";
     font-color: black;
+    height: 25px;
 }
-p{
-	font-family: "verdana";
-	}
-input[type="text"] { 
-    background: white; 
-    border: 1px double black; 
-    border-radius: 5px; 
-    box-shadow: 0 0 5px yellow; 
-    color: black; 
-    outline: center; 
-    height:25px; 
-    width: 275px; 
-    font-family:"verdana";
-  } 
+input.remove{
+	height:30em; 
+}
 </style>
-<body>
-<form action ="PetitionClassSubmit" method = "get">
-<img src ="C:\Users\Acer\Desktop\ust.jpg" alt = "No Image Found=" width = 950 height =>
-<input type="submit" value="Schedule"/><input type="submit" value="Create A Petition Class"/><input type="submit" value="Logout"/>
-<center><p>You are in the 'Create A Petition Class' menu.</p></center></br>
-<center><p>Semester: <input type="text" name="sem"/></p></center>
-<center><p>College: <input type="text" name="college"/></p></center>
-<center><p>Subject Name: <input type="text" name="subname"/></p></center>
-<center><p>Number of Units: <input type="text" name="units"/></p></center>
-<center><p>Proposed Schedule: <input type="text" name="propsched"/></p></center>
-<center><p>Time: <input type="text" name="time"/></p></center>
-<center><p>Professor: <input type="text" name="prof"/></p></center>
-<center><input type="submit" value="Submit"/></center>
-<p>*Once approved, Petition Subject will appear in 'Available Petition Subjects.</p>
-<p>*It will be removed from the 'Available Petition Subjects' when slots are no longer available.</p></br></br>
-</form>
-</body>
 </html>

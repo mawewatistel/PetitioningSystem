@@ -17,6 +17,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LabExer5" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sample" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/javaplays-restjava-mobilestarterkit-templatecode" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/version1" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/projectjsp" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab1exercises" type="4"/>
 </workingSet>

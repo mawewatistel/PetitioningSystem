@@ -7,11 +7,16 @@
 <title>Petition Classes</title>
 </head>
 <body>
-<img src ="C:\Users\Acer\Desktop\ust.jpg" alt = "Missing Image!=" width = 950 height= >
+<div id ="wrapperHeader">
+<div id= "header">
+<img src ="Images/ust.JPG" alt = "Missing Image!=" width = 1350 height= >
+</div>
+</div> 
 <form action="login.jsp" method="post"> <br/>
 <center><p>Username</p><input type="text" name="username"> <br/></center>
 <center><p>Password</p><input type="password" name="password"> <br/>
-<br><input type="submit" value="Submit"> </form> </center>
+<br><input type="submit" value="Log in"> </form> </center>
+
 <style> 
   input[type="text"] { 
     background: #A9A9A9; 
@@ -52,7 +57,8 @@ background: #A9A9A9;
     width: 275px; 
     font-family:"verdana";
 }
+input.remove{
+	}
 </style>
-
 </body>
 </html>
