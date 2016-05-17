@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ControllerServlet" method="post">
+<ceter><h1> BANK ACCOUNT </h1></ceter>
+<center>Receiving Balance:<input type="text" name="rbalance"></center><br>  
+<center>Deposit Account:<input type="password" name="daccount"></center><br>  
+<center>Withdrawal Account:<input type="text" name="waccount"></center><br>
+<center><input type="submit" value="Submit">  </center>
+</form>
+</body>
+</html>

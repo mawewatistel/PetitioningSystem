@@ -6,6 +6,10 @@
 		<project>Calc</project>
 		<project>Lab1exercises</project>
 		<project>testing</project>
+		<project>mvc1</project>
+		<project>cvm</project>
+		<project>bankaccount</project>
+		<project>Tolentino</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

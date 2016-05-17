@@ -20,6 +20,33 @@ else if (request.getParameter("two") != null) {
 else if (request.getParameter("three") != null) {
     response.sendRedirect("index.jsp");
 }
+else if (request.getParameter("rone") != null){
+	response.sendRedirect("remove1.jsp");
+}
+else if (request.getParameter("rtwo") != null){
+	response.sendRedirect("remove2.jsp");
+}
+else if (request.getParameter("rthree") != null){
+	response.sendRedirect("remove3.jsp");
+}
+else if (request.getParameter("rfour") != null){
+	response.sendRedirect("remove4.jsp");
+}
+else if (request.getParameter("rfive") != null){
+	response.sendRedirect("remove5.jsp");
+}
+else if (request.getParameter("rsix") != null){
+	response.sendRedirect("remove6.jsp");
+}
+else if (request.getParameter("rone") != null){
+	response.sendRedirect("remove1.jsp");
+}
+else if (request.getParameter("rone") != null){
+	response.sendRedirect("remove1.jsp");
+}
+else if (request.getParameter("rone") != null){
+	response.sendRedirect("remove1.jsp");
+}
  %>
 <br>
 <table border="1" align="right" style ="width: 20%">
@@ -61,7 +88,7 @@ else if (request.getParameter("three") != null) {
 <td>Lab Units</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rone" value="Remove" style="width:100%"></form></td>
 </tr>
 <tr>
 <td>FIL 1</td>
@@ -70,7 +97,7 @@ else if (request.getParameter("three") != null) {
 <td>Lab Units</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three" value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rtwo" value="Remove" style="width:100%"></form></td>
 </tr>
 <tr>
 <td>PHL 1</td>
@@ -79,7 +106,7 @@ else if (request.getParameter("three") != null) {
 <td>Lab Units</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rthree" value="Remove" style="width:100%"></form></td>
 </tr>
 <tr>
 <td>ICS 111</td>
@@ -88,7 +115,7 @@ else if (request.getParameter("three") != null) {
 <td>1</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rfour" value="Remove" style="width:100%"></form></td>
 </tr>
 <tr>
 <td>PE</td>
@@ -97,7 +124,7 @@ else if (request.getParameter("three") != null) {
 <td>Lab Units</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rfive" value="Remove" style="width:100%"></form></td>
 </tr>
 <tr>
 <td>NSTP</td>
@@ -106,7 +133,7 @@ else if (request.getParameter("three") != null) {
 <td>Lab Units</td>
 <td>Section</td>
 <td>Schedule</td>
-<td><form><input type="submit"  name="three"value="Remove" style="width:100%"></form></td>
+<td><form><input type="submit"  name="rsix" value="Remove" style="width:100%"></form></td>
 </tr>
 </table>
 <br>
@@ -180,4 +207,5 @@ input.remove{
 	height:30em; 
 }
 </style>
+</body>
 </html>

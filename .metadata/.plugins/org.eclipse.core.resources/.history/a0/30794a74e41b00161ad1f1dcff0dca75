@@ -1,0 +1,51 @@
+package com.ella;
+
+public class GradeBean {
+	private double PrelimLec,PrelimLab,FinalsLec,FinalsLab,Output,PrelimGrade,FinalGrade;  
+	
+	public void setPrelimLec(double prelimlec) {  
+	    this.PrelimLec = prelimlec;  
+	}  
+	 
+	public void setPrelimLab(double prelimlab) {  
+	    this.PrelimLab = prelimlab;  
+	}  
+	
+	public void setFinalsLec(double finalslec){
+		this.FinalsLec = finalslec;
+	}
+	public void setFinalsLab(double finalslab){
+		this.FinalsLab = finalslab;
+	}
+	public void setOutput(double output){
+		this.Output = output;
+	}
+	public void setPrelimGrade(double prelimgrade){
+		this.PrelimGrade = prelimgrade;
+	}
+	public void setFinalGrade(double finalgrade){
+		this.FinalGrade = finalgrade;
+	}
+
+	public boolean compute(){  
+	    if(prelimlec & prelim lab){  
+	        setOutput(.60(prelimlec + prelimlab);  
+	    }  
+	    else{  
+	        return true;
+}
+}
+}
+
+public void compute(){
+	if (){
+		setOutput(num1 + num2);
+	}
+	else if (currency.equals("Mi")){
+		setOutput(num1 - num2);
+	}
+	else if (currency.equals("Mu")){
+		setOutput(num1 * num2);
+	}
+	else if (currency.equals("D")){
+		setOutput(num1 / num2);

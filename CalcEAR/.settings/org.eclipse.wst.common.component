@@ -13,5 +13,21 @@
             <dependent-object>Module_1461844223318</dependent-object>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="mvc1.war" deploy-path="/" handle="module:/resource/mvc1/mvc1">
+            <dependent-object>Module_1463016761605</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cvm.war" deploy-path="/" handle="module:/resource/cvm/cvm">
+            <dependent-object>Module_1463025158157</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bankaccount.war" deploy-path="/" handle="module:/resource/bankaccount/bankaccount">
+            <dependent-object>Module_1463027619261</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Tolentino.war" deploy-path="/" handle="module:/resource/Tolentino/Tolentino">
+            <dependent-object>Module_1463454800242</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

@@ -1,0 +1,33 @@
+package bankaccount;
+
+public class AccountBean {
+	private double rbalance,damount,wamount;  
+
+	public double getReceivingBalance() {  
+	    return rbalance;  
+	}  
+	public void setReceivingBalance(double rbalance) {  
+	    this.rbalance = rbalance;  
+	}  
+	public double getDepositAmount() {  
+	    return damount;  
+	}  
+	public void setDepositAmount(double damount) {  
+	    this.damount = damount;  
+	}  
+	public double getWithdrawAmount(){
+		return wamount;
+	}
+	public void setWithdrawAmount(double wamount){
+		this.wamount = wamount;
+	}
+
+	public boolean isValidWithdrawal(){  
+	    if(wamount > rbalance){  
+	        return false;  
+	    }  
+	    else{  
+	        return true;
+}
+}
+}

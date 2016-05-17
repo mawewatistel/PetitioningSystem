@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="lab2exercise.Applicant"/>
 <fullyQualifiedTypeName name="lab3exercise.Calculator"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="bankaccount.AccountBean"/>
+<fullyQualifiedTypeName name="com.bankaccount.AccountBean"/>
 </qualifiedTypeNameHistroy>

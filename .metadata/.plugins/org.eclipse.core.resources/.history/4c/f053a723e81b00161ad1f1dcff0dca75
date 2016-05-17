@@ -1,0 +1,22 @@
+package com.ella;
+
+public class GradeBean {
+	private double PrelimLec,PrelimLab,FinalsLec,FinalsLab;
+	
+	
+	
+	public void setPrelimLec(double prelimlec) {  
+	    this.PrelimLec = prelimlec;  
+	}  
+	 
+	public void setPrelimLab(double prelimlab) {  
+	    this.PrelimLab = prelimlab;  
+	}  
+	
+	public void setFinalsLec(double finalslec){
+		this.FinalsLec = finalslec;
+	}
+	public void setFinalsLab(double finalslab){
+		this.FinalsLab = finalslab;
+	}
+}

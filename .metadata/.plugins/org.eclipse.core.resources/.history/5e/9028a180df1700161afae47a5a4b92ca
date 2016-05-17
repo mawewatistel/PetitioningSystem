@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CalcEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Calc.war" deploy-path="/" handle="module:/resource/Calc/Calc">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Lab1exercises.war" deploy-path="/" handle="module:/resource/Lab1exercises/Lab1exercises">
+            <dependent-object>Module_1457455259250</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="testing.war" deploy-path="/" handle="module:/resource/testing/testing">
+            <dependent-object>Module_1461844223318</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mvc1.war" deploy-path="/" handle="module:/resource/mvc1/mvc1">
+            <dependent-object>Module_1462958749140</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
